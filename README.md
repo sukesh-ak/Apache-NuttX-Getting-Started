@@ -41,6 +41,18 @@ export PATH=$PATH:/usr/bin/genromfs
 $ genromfs -v
 ```
 
+## Clone Apache NuttX from Github repo
+```bash
+# Create a workspace folder and switch to it
+$ mkdir nuttxspace && cd nuttxspace
+
+# Clone Apache NuttX repo
+$ git clone https://github.com/apache/nuttx.git nuttx
+
+# Clone Apache NuttX Application repo
+$ git clone https://github.com/apache/nuttx-apps apps
+```
+
 ## Setup and build NuttX and its shell (inside 'nuttxspace/nuttx' folder)
 ```bash
 # Clean the previous build files (if any)
