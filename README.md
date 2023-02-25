@@ -1,5 +1,12 @@
 # Getting Started with Apache NuttX on Windows
-Getting Started with Apache NuttX on Windows 11 using WSL2 running Ubuntu
+
+## What is APACHE NUTTX?
+Apache NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 64-bit microcontroller environments, the primary governing standards in NuttX are POSIX and ANSI standards. 
+
+## Get started with Apache NuttX on Windows 11 using WSL2 running Ubuntu
+- Install & Setup tools required to run Apache NuttX
+- Compile and run NuttX shell called `nsh`
+- Compile and run LVGL GUI Demo on NuttX   
 
 ## Installing pre-requisites
 ```bash
@@ -111,3 +118,7 @@ $ ./nuttx
 ```
 
 ![ESP32-TUX](assets/NuttX-LVGL.png)  
+
+## Where to find more info
+- Get Apache NuttX from the repo [here](https://github.com/apache/nuttx)
+- Documentation of Apache NuttX is [here](https://nuttx.apache.org/docs/latest/index.html)
