@@ -77,6 +77,10 @@ $ ./nuttx
 NuttShell (NSH) NuttX-12.0.0
 MOTD: username=admin password=Administrator
 
+# Checking NuttX version info
+nsh> uname -a
+NuttX  12.0.0 4f3c73fb45 Feb 25 2023 16:55:37 sim sim
+
 # To see installed tools and get help use `?` from the shell
 # Your output might be different since I have few more apps enabled. You can do so, using `make menuconfig`
 nsh> ?
