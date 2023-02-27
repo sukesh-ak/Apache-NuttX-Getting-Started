@@ -106,7 +106,8 @@ Hello, World!!
 nsh> poweroff
 ```
 
-## Running LVGL Demo (WSL2 rquires Windows 11 which supports graphics using WSLg)
+## Running LVGL Demo Ubuntu Desktop / WSL2 (Windows 11)
+_WSL2 requires Windows 11 which supports graphics using WSLg_  
 ```bash
 # Clean the previous build files
 $ make distclean
