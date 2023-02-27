@@ -1,4 +1,4 @@
-# Getting Started with Apache NuttX on Linux/WSL2 (Windows)
+# Getting Started with Apache NuttX on Ubuntu/WSL2 (Windows)
 
 ## What is APACHE NUTTX?
 Apache NuttX is a real-time operating system (RTOS) with an emphasis on standards compliance and small footprint. Scalable from 8-bit to 64-bit microcontroller environments, the primary governing standards in NuttX are POSIX and ANSI standards. 
